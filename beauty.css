@@ -1,0 +1,234 @@
+/**p{
+    border-style: double;
+    border-width: 25px;
+    padding: 25px;
+    font-size: 50px;
+}**/
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+   
+    
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+     margin-top: 100px;
+}
+#fg{
+    text-align: left;
+    float: left;
+    font-size: 50px;
+    margin-right: 400px;
+    margin-left: 50px;
+
+}
+#ng{
+    text-align: right;
+    float: right;
+    font-size: 50px;
+    margin-left:50px;
+    margin-right: 250px;
+}
+
+#mg{
+    text-align: left;
+    float: left;
+    font-size: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+#pp{
+    text-align: left;
+    float: left;
+    font-size: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+#gg{
+    text-align: right ;
+    float: right;
+    font-size: 50px;
+    margin-right: 60px;
+
+}
+
+#navbar ul{
+    list-style-type: none;
+    background-color:transparent ;
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;
+    
+}
+#navbar a{
+    color: white;
+    text-decoration: dotted;
+    padding: 15px;
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    background-color: rgb(74, 164, 220);
+}
+#navbar a:hover{
+    background-color:gray;
+    opacity: 50%;
+}
+#navbar li{
+    float: left;
+}
+#uu{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: inset -5px -5px rgb(0, 0, 0,0.5);
+    border-radius: 25px;
+    background-color: transparent;
+}
+#bob{
+    background-image: url("miami.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 70%;
+}
+.mika{
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 30px;
+}
+.moi{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+.mar{
+    background: linear-gradient( pink,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.iso{
+    background: linear-gradient(pink,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.papi{
+    background: linear-gradient(pink,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.kio{
+    background: linear-gradient(pink,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.lol{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.popi{
+    font-size: 45px;
+    text-align: center;
+    border: solid black;
+    border-radius: 25px;
+}
+.oo{
+    float: left;
+    font-size: 50px;
+    margin-right: 400px;
+    margin-left: 50px;
+}
+.mich{
+    margin-left: 2px;
+    padding-left: 2px;
+}
+.miako{
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-right: 100px;
+   
+}
+.miako :hover{
+    background-color: blue;
+    border: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.miako a{
+    display: flex;
+}
+
+.bitch{
+    text-align: center;
+}
+.lp{
+    margin-right: 100px;
+}
+.ui{
+    margin-right: 100px;
+}
+.ui :hover{
+    background-color: rgb(40, 34, 34);
+    border: 10px;
+    border-radius: 8px;
+    border: 0px solid;
+    opacity: 80%;
+}
+.ui a{
+    display: flex;
+}
+.fp{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.fp :hover{
+    background-color: rgb(17, 19, 17);
+    border: 10px;
+    border-radius: 8px;
+     border: 0px solid ;
+     opacity: 80%;
+}
+.fp a{
+    display: flex;
+}
+.lp :hover{
+   background-color: green;
+    border: 10px;
+    border-radius: 8px;
+     border: 0px solid ;
+}
+.lp a {
+    display: flex;
+   
+}
+.hummer{
+    margin-left: 20cm;
+    font-size: 45px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+}
+#lapin{
+    float: left;
+}
+.alo :hover{
+    background-color:rgb(23, 21, 21);
+    border: 10px;
+    border-radius: 8px;
+     border: 0px solid ;
+}
+.alo a {
+    display: flex;
+}
+
+
