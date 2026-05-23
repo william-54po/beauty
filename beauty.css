@@ -6,7 +6,11 @@
 }**/
 h1{
     text-align: center;
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 4vw;
+>>>>>>> b2cc8342d2d444072c741039b24f0cc80df57ba9
     width: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
@@ -70,6 +74,7 @@ h3{
 #navbar a{
     color: white;
     text-decoration: dotted;
+<<<<<<< HEAD
     padding:clamp(10px,10px,15px);
     display: block;
     text-align: center;
@@ -77,6 +82,13 @@ h3{
     margin: 10px auto;
     max-width: 100%;
     width: 100%;
+=======
+    padding: 12px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px auto;
+>>>>>>> b2cc8342d2d444072c741039b24f0cc80df57ba9
     margin-top: 60px;
     background-color: rgb(74, 164, 220);
 }
@@ -180,7 +192,11 @@ h3{
     text-align: center;
 }
 .lp{
+<<<<<<< HEAD
     margin-right: 30px;
+=======
+    margin-right: 100px;
+>>>>>>> b2cc8342d2d444072c741039b24f0cc80df57ba9
     width: 60px;
     max-width: 60px;
     height: auto;
@@ -328,6 +344,7 @@ font-style: italic;
     height: auto;
     
 }
+<<<<<<< HEAD
 .christ{
     width: 100%;
     max-width: 600px;
@@ -383,3 +400,5 @@ font-style: italic;
     max-width: 700px;
     height: auto;
 }
+=======
+>>>>>>> b2cc8342d2d444072c741039b24f0cc80df57ba9
