@@ -6,7 +6,8 @@
 }**/
 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
+    width: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
    
@@ -32,7 +33,7 @@ h3{
     float: right;
     font-size: 50px;
     margin-left:50px;
-    margin-right: 250px;
+    margin-right: clamp(100px,125px,250px);
 }
 
 #mg{
@@ -46,14 +47,15 @@ h3{
     text-align: left;
     float: left;
     font-size: 50px;
-    margin-right: 100px;
-    margin-left: 50px;
+    margin-right: clamp(80px,100px,100px);
+    margin-left: clamp(15px,20px,50px);
 }
 #gg{
     text-align: right ;
     float: right;
     font-size: 50px;
     margin-right: 60px;
+    margin-left:100px ;
 
 }
 
@@ -61,17 +63,20 @@ h3{
     list-style-type: none;
     background-color:transparent ;
     padding: 0px;
-    margin: 10px;
+    margin: 10px ;
     overflow: hidden;
     
 }
 #navbar a{
     color: white;
     text-decoration: dotted;
-    padding: 15px;
-    display: grid;
+    padding:clamp(10px,10px,15px);
+    display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
+    margin: 10px auto;
+    max-width: 100%;
+    width: 100%;
     margin-top: 60px;
     background-color: rgb(74, 164, 220);
 }
@@ -85,9 +90,11 @@ h3{
 #uu{
     display: flex;
     flex-direction: column;
-    height: 600px;
-    width: 900px;
-    border: 1px solid black;
+    height: auto;
+    max-height: 50cm;
+    width: 100%;
+    max-width: 20cm;
+    border: 5px solid black;
     margin: auto;
     margin-top: 50px;
     box-shadow: inset -5px -5px rgb(0, 0, 0,0.5);
@@ -154,9 +161,9 @@ h3{
     padding-left: 2px;
 }
 .miako{
-    padding-left: 5px;
-    margin-left: 5px;
-    margin-right: 100px;
+    padding-left: 3px;
+    margin-left: 3px;
+    margin-right: 30px;
    
 }
 .miako :hover{
@@ -173,10 +180,15 @@ h3{
     text-align: center;
 }
 .lp{
-    margin-right: 100px;
+    margin-right: 30px;
+    width: 60px;
+    max-width: 60px;
+    height: auto;
+    display: inline;
+
 }
 .ui{
-    margin-right: 100px;
+    margin-right: 30px;
 }
 .ui :hover{
     background-color: rgb(40, 34, 34);
@@ -189,8 +201,8 @@ h3{
     display: flex;
 }
 .fp{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .fp :hover{
     background-color: rgb(17, 19, 17);
@@ -213,8 +225,8 @@ h3{
    
 }
 .hummer{
-    margin-left: 20cm;
-    font-size: 45px;
+    margin-left:clamp(10px,15px,20cm);
+    font-size: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-style: italic;
 }
@@ -230,5 +242,144 @@ font-style: italic;
 .alo a {
     display: flex;
 }
+/*img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}*/
 
-
+.papillon{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+.etoile{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+.boite{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+.gazo{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.simple{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.analy{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.aply{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.ninho{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+.mhd{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+.mhd{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+.mhd{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+.mhd{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+.mhd{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+.christ{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.brown{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.boza{
+    width: 100%;
+    max-width:60px ;
+    height: auto;
+}
+.sisko{
+    width: 100%;
+    max-width:60px ;
+    height: auto;
+}
+.eyes{
+    width: 100%;
+    max-width:60px ;
+    height: auto;
+}
+.ice{
+    width: 100%;
+    max-width:60px ;
+    height: auto;
+}
+.rice{
+    width: 100%;
+    max-width:60px ;
+    height: auto;
+}
+.bank{
+    width:100%;
+    max-width: 50px;
+    height: clamp(40px,auto,60px);
+}
+.glow{
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+}
+.bro{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+.sis{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
